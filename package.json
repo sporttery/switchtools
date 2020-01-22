@@ -1,0 +1,31 @@
+{
+  "name": "by-switch-tools",
+  "version": "1.0.0",
+  "description": "boya cisco switch tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sporttery/switchtools.git"
+  },
+  "keywords": [
+    "cisco",
+    "switch",
+    "tools",
+    "changevlan",
+    "vlan",
+    "network"
+  ],
+  "author": "zhangwei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sporttery/switchtools/issues"
+  },
+  "homepage": "https://github.com/sporttery/switchtools#readme",
+  "dependencies": {
+    "http": "0.0.0",
+    "ssh2": "^0.8.7"
+  }
+}
