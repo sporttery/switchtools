@@ -4,7 +4,9 @@
   "description": "boya cisco switch tools",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ncc" :"ncc build test/index.js -m  -o bin",
+    "nexe":"nexe -t win32-x86-10.13.0 bin/index.js"
   },
   "repository": {
     "type": "git",
