@@ -72,9 +72,9 @@ let cacheMacFound = {};
 function changeVlanMac(mac, vlan) {
 	var cmd = "traceroute mac " + mac + " " + mac + "\n";
 	/*
-	Source 3ccd.365f.441d found on pitx-7F-2960-05
-1 pitx-7F-2960-05 (172.21.31.15) : Gi0/31 => Gi0/31
-Destination 3ccd.365f.441d found on pitx-7F-2960-05
+	Source 3ccd.365f.441d found on xxxxxxx
+1 xxxxxx (172.21.31.15) : Gi0/31 => Gi0/31
+Destination 3ccd.365f.441d found on xxxxxxx
 Layer 2 trace completed
 	*/
 	exec(cmd,(data)=>{
