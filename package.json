@@ -28,6 +28,6 @@
   "homepage": "https://github.com/sporttery/switchtools#readme",
   "dependencies": {
     "http": "0.0.0",
-    "ssh2": "^0.8.7"
+    "ssh2": "^1.4.0"
   }
 }
